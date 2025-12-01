@@ -3,7 +3,7 @@ class Organizm:
         self.nazwa = nazwa
         self.rodzaj = rodzaj
     def opisz(self):
-        print(f"Nazwa organizmu to {self.nazwa}.\nRodzaj organizmu to {self.rodzaj}.")
+        print(f"\nNazwa organizmu to {self.nazwa}.\nRodzaj organizmu to {self.rodzaj}.")
     @staticmethod
     def transkrybuj(sekwencja):
         return sekwencja.replace("T", "U")
